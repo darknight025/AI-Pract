@@ -13,6 +13,34 @@ class ExpertSystem:
                 'symptoms': ['chest_pain'],
                 'response': 'Chest pain can be a serious symptom. Please consult with the cardiology department.'
             },
+            'headache': {
+                'symptoms': ['headache'],
+                'response': 'Persistent headaches can indicate various underlying issues. It is recommended to consult with the neurology department.'
+            },
+            'nausea_vomiting': {
+                'symptoms': ['nausea', 'vomiting'],
+                'response': 'Nausea and vomiting can be caused by a range of factors. Please consult with the gastroenterology department.'
+            },
+            'rash': {
+                'symptoms': ['rash'],
+                'response': 'Skin rashes can be indicative of different conditions. It is advisable to consult with the dermatology department.'
+            },
+            'fatigue': {
+                'symptoms': ['fatigue'],
+                'response': 'Fatigue can be a symptom of various health issues. It is recommended to consult with the internal medicine department.'
+            },
+            'joint_pain': {
+                'symptoms': ['joint_pain'],
+                'response': 'Joint pain may indicate underlying conditions. Please consult with the rheumatology department.'
+            },
+            'abdominal_pain': {
+                'symptoms': ['abdominal_pain'],
+                'response': 'Abdominal pain can be a sign of digestive or abdominal issues. Please consult with the gastroenterology department.'
+            },
+            'cough': {
+                'symptoms': ['cough'],
+                'response': 'Coughing can be a symptom of respiratory problems. It is advisable to consult with the pulmonology department.'
+            },
             # Add more rules for different conditions and departments
         }
 
